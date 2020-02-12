@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 
 const Profile = () => {
+    useEffect(() => {
+        document.body.style.backgroundColor = '#24292E';
+    });
     return (
         <div>
             <Head>

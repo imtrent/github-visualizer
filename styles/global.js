@@ -33,7 +33,7 @@ export const Heading = styled.h1`
     }
 `;
 
-export const Button = styled.a`
+export const Button = styled.button`
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +47,7 @@ export const Button = styled.a`
     background-color #28a745;
     background-image: linear-gradient(-180deg, #34d058,#28a745 90%);
     font-weight: 600;
+    color: white;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 
     &:hover {

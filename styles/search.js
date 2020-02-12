@@ -30,9 +30,9 @@ export const Wrapper = styled.div`
         flex-direction: column;
         max-width: 500px;
         width: 100%;
+    }
 
-        button {
-            flex: 1 0 100%;
-        }
+    .error {
+        color: red;
     }
 `;
