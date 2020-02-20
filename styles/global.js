@@ -16,6 +16,10 @@ export const GlobalStyles = createGlobalStyle`
     * {
         box-sizing: border-box;
     }
+
+    a {
+        text-decoration: none;
+    }
 `;
 
 export const Heading = styled.h1`
@@ -29,7 +33,7 @@ export const Heading = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 3.8rem;
+        font-size: 3.6rem;
     }
 `;
 
